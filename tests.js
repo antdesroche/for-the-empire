@@ -13,7 +13,7 @@ describe('StarWarsScene', function () {
 
     expect(deliverStormTroopersEscapeScene(rebels))
       .to.deep.equal([
-        'Look! Rebel scum!', 'Look! Rebel scum!', 'Look! Rebel scum!',
+        'Look! Rebel scum!','Look! Rebel scum!','Look! Rebel scum!',
         'Oh no! They\'re getting away!', 'Oh no! They\'re getting away!', 'Oh no! They\'re getting away!',
         'pew', 'pew', 'pew', 'pew'
       ])
